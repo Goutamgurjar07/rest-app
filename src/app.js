@@ -23,7 +23,7 @@ app.set('views',viewPath)
 
 
 app.get('/',(req,res)=>{
-     res.send("hello from goutam");
+     res.send("hello from goutam gurjar");
 })
 app.get('/login',(req,res)=>{
      res.render('singin');
