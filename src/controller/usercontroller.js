@@ -54,8 +54,8 @@ const logPage=async(req,res)=>{
 const getAllUsers=async(req,res)=>{
      try {
           const users=await userModel.find()
-          res.render('signup')
-          // res.status(200).send(users)
+          // res.render('signup')
+      res.status(200).send(users)
      } catch (error) {
           res.send(error)
      }
