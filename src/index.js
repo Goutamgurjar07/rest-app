@@ -2,8 +2,8 @@ const express=require('express')
 const dotenv=require('dotenv')
 const app=express()
 const jwt = require('jsonwebtoken');
-const userRoute=require("../src/route/userRoute")
-const logRoute=require("../src/route/logRout")
+const userRoute=require("./route/userRoute")
+const logRoute=require("./route/logRout")
 
 const hbs=require('hbs')
 const path=require('path');
